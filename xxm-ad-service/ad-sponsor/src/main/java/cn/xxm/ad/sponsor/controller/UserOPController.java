@@ -1,9 +1,9 @@
 package cn.xxm.ad.sponsor.controller;
 
 import cn.xxm.ad.common.exception.AdException;
+import cn.xxm.ad.common.vo.CreateUserRequest;
+import cn.xxm.ad.common.vo.CreateUserResponse;
 import cn.xxm.ad.sponsor.service.IUserService;
-import cn.xxm.ad.sponsor.vo.CreateUserRequest;
-import cn.xxm.ad.sponsor.vo.CreateUserResponse;
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

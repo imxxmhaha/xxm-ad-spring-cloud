@@ -2,14 +2,16 @@ package cn.xxm.ad.sponsor.service.impl;
 
 
 
+import cn.xxm.ad.api.entity.AdUser;
+import cn.xxm.ad.common.constant.Constants;
 import cn.xxm.ad.common.exception.AdException;
+import cn.xxm.ad.common.exception.ExceptionCast;
+import cn.xxm.ad.common.response.CommonCode;
 import cn.xxm.ad.common.utils.CommonUtils;
-import cn.xxm.ad.sponsor.constant.Constants;
+import cn.xxm.ad.common.vo.CreateUserRequest;
+import cn.xxm.ad.common.vo.CreateUserResponse;
 import cn.xxm.ad.sponsor.dao.AdUserRepository;
-import cn.xxm.ad.sponsor.entity.AdUser;
 import cn.xxm.ad.sponsor.service.IUserService;
-import cn.xxm.ad.sponsor.vo.CreateUserRequest;
-import cn.xxm.ad.sponsor.vo.CreateUserResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -41,7 +43,7 @@ public class UserServiceImpl implements IUserService {
         AdUser oldUser = userRepository.
                 findByUsername(request.getUsername());
         if (oldUser != null) {
-            throw new AdException(Constants.ErrorMsg.SAME_NAME_ERROR);
+            ExceptionCast.cast(CommonCode.SAME_NAME_ERROR);
         }
 
         AdUser newUser = userRepository.save(new AdUser(

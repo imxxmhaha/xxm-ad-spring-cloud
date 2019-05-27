@@ -1,6 +1,6 @@
 package cn.xxm.ad.sponsor.dao;
 
-import cn.xxm.ad.sponsor.entity.AdUser;
+import cn.xxm.ad.api.entity.AdUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

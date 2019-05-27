@@ -1,8 +1,8 @@
 package cn.xxm.ad.sponsor.controller;
 
 import cn.xxm.ad.common.exception.AdException;
+import cn.xxm.ad.common.vo.*;
 import cn.xxm.ad.sponsor.service.IAdUnitService;
-import cn.xxm.ad.sponsor.vo.*;
 import com.alibaba.fastjson.JSON;
 
 import lombok.extern.slf4j.Slf4j;

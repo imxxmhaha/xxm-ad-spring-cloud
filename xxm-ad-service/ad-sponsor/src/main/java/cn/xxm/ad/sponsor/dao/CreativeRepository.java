@@ -1,6 +1,6 @@
 package cn.xxm.ad.sponsor.dao;
 
-import cn.xxm.ad.sponsor.entity.Creative;
+import cn.xxm.ad.api.entity.Creative;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

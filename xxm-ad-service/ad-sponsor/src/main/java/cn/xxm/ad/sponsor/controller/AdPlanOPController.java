@@ -1,11 +1,11 @@
 package cn.xxm.ad.sponsor.controller;
 
+import cn.xxm.ad.api.entity.AdPlan;
 import cn.xxm.ad.common.exception.AdException;
-import cn.xxm.ad.sponsor.entity.AdPlan;
+import cn.xxm.ad.common.vo.AdPlanGetRequest;
+import cn.xxm.ad.common.vo.AdPlanRequest;
+import cn.xxm.ad.common.vo.AdPlanResponse;
 import cn.xxm.ad.sponsor.service.IAdPlanService;
-import cn.xxm.ad.sponsor.vo.AdPlanGetRequest;
-import cn.xxm.ad.sponsor.vo.AdPlanRequest;
-import cn.xxm.ad.sponsor.vo.AdPlanResponse;
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

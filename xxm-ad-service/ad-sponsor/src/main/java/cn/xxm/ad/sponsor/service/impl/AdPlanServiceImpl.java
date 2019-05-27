@@ -1,17 +1,17 @@
 package cn.xxm.ad.sponsor.service.impl;
 
+import cn.xxm.ad.api.entity.AdPlan;
+import cn.xxm.ad.api.entity.AdUser;
+import cn.xxm.ad.common.constant.CommonStatus;
+import cn.xxm.ad.common.constant.Constants;
 import cn.xxm.ad.common.exception.AdException;
 import cn.xxm.ad.common.utils.CommonUtils;
-import cn.xxm.ad.sponsor.constant.CommonStatus;
-import cn.xxm.ad.sponsor.constant.Constants;
+import cn.xxm.ad.common.vo.AdPlanGetRequest;
+import cn.xxm.ad.common.vo.AdPlanRequest;
+import cn.xxm.ad.common.vo.AdPlanResponse;
 import cn.xxm.ad.sponsor.dao.AdPlanRepository;
 import cn.xxm.ad.sponsor.dao.AdUserRepository;
-import cn.xxm.ad.sponsor.entity.AdPlan;
-import cn.xxm.ad.sponsor.entity.AdUser;
 import cn.xxm.ad.sponsor.service.IAdPlanService;
-import cn.xxm.ad.sponsor.vo.AdPlanGetRequest;
-import cn.xxm.ad.sponsor.vo.AdPlanRequest;
-import cn.xxm.ad.sponsor.vo.AdPlanResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

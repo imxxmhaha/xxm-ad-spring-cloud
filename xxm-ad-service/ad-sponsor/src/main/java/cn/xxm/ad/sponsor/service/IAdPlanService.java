@@ -2,11 +2,12 @@ package cn.xxm.ad.sponsor.service;
 
 
 
+import cn.xxm.ad.api.entity.AdPlan;
 import cn.xxm.ad.common.exception.AdException;
-import cn.xxm.ad.sponsor.entity.AdPlan;
-import cn.xxm.ad.sponsor.vo.AdPlanGetRequest;
-import cn.xxm.ad.sponsor.vo.AdPlanRequest;
-import cn.xxm.ad.sponsor.vo.AdPlanResponse;
+import cn.xxm.ad.common.vo.AdPlanGetRequest;
+import cn.xxm.ad.common.vo.AdPlanRequest;
+import cn.xxm.ad.common.vo.AdPlanResponse;
+
 
 import java.util.List;
 

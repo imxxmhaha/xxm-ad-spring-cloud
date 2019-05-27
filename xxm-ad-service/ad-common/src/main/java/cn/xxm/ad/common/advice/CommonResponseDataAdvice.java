@@ -45,6 +45,7 @@ public class CommonResponseDataAdvice implements ResponseBodyAdvice<Object> {
     @Override
     @SuppressWarnings("all")
     public Object beforeBodyWrite(Object body, MethodParameter returnType, MediaType selectedContentType, Class<? extends HttpMessageConverter<?>> selectedConverterType, ServerHttpRequest request, ServerHttpResponse response) {
+        System.out.println(body);
         CommonResponse<Object> commonResponse = new CommonResponse<>("001000","");
         if(null == body){
             return commonResponse;

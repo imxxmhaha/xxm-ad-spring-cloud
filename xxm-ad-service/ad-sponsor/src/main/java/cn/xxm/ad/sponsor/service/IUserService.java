@@ -2,8 +2,8 @@ package cn.xxm.ad.sponsor.service;
 
 
 import cn.xxm.ad.common.exception.AdException;
-import cn.xxm.ad.sponsor.vo.CreateUserRequest;
-import cn.xxm.ad.sponsor.vo.CreateUserResponse;
+import cn.xxm.ad.common.vo.CreateUserRequest;
+import cn.xxm.ad.common.vo.CreateUserResponse;
 
 /**
  * Created by Qinyi.

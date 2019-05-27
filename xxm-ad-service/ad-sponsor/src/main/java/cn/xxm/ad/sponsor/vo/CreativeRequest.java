@@ -1,7 +1,7 @@
 package cn.xxm.ad.sponsor.vo;
 
-import cn.xxm.ad.sponsor.constant.CommonStatus;
-import cn.xxm.ad.sponsor.entity.Creative;
+import cn.xxm.ad.api.entity.Creative;
+import cn.xxm.ad.common.constant.CommonStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -43,27 +43,10 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
         </dependency>
-        <!-- Java Persistence API, ORM 规范 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <!-- 数据库连接 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-jdbc</artifactId>
-        </dependency>
-        <!-- MySQL 驱动, 注意, 这个需要与 MySQL 版本对应 -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.12</version>
-            <scope>runtime</scope>
-        </dependency>
         <!-- 通用模块 -->
         <dependency>
             <groupId>cn.xxm.ad</groupId>
-            <artifactId>ad-common</artifactId>
+            <artifactId>ad-api</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

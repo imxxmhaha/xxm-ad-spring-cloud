@@ -2,7 +2,7 @@ package cn.xxm.ad.sponsor.service;
 
 
 import cn.xxm.ad.common.exception.AdException;
-import cn.xxm.ad.sponsor.vo.*;
+import cn.xxm.ad.common.vo.*;
 
 /**
  * Created by Qinyi.

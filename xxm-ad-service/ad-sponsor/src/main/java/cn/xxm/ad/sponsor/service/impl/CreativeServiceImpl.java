@@ -1,10 +1,10 @@
 package cn.xxm.ad.sponsor.service.impl;
 
+import cn.xxm.ad.api.entity.Creative;
+import cn.xxm.ad.common.vo.CreativeResponse;
 import cn.xxm.ad.sponsor.dao.CreativeRepository;
-import cn.xxm.ad.sponsor.entity.Creative;
 import cn.xxm.ad.sponsor.service.ICreativeService;
 import cn.xxm.ad.sponsor.vo.CreativeRequest;
-import cn.xxm.ad.sponsor.vo.CreativeResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

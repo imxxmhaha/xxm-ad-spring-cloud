@@ -1,6 +1,6 @@
 package cn.xxm.ad.sponsor.dao;
 
-import cn.xxm.ad.sponsor.entity.AdPlan;
+import cn.xxm.ad.api.entity.AdPlan;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

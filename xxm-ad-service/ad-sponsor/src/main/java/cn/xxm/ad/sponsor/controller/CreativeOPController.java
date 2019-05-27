@@ -1,8 +1,8 @@
 package cn.xxm.ad.sponsor.controller;
 
+import cn.xxm.ad.common.vo.CreativeResponse;
 import cn.xxm.ad.sponsor.service.ICreativeService;
 import cn.xxm.ad.sponsor.vo.CreativeRequest;
-import cn.xxm.ad.sponsor.vo.CreativeResponse;
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
