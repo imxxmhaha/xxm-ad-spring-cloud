@@ -28,7 +28,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
-            <version>4.0</version>
+            <version>4.1</version>
         </dependency>
         <!-- 引入 Feign, 可以以声明的方式调用微服务 -->
         <dependency>
